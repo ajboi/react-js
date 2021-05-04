@@ -1,0 +1,1 @@
+Pure react that renders an array of h1 inside a div, which is again wrapped in a root div.

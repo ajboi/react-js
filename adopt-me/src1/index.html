@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pure React</title>
+</head>
+<body>
+     <div id='root'></div> 
+     <!--Creates a div element with the id root which will be used by ReactDOM to stamp the App component. -->
+    <script src='https://unpkg.com/react@17/umd/react.development.js'></script>
+    <script src='https://unpkg.com/react-dom@17/umd/react-dom.development.js'></script>
+    <!-- Imports the React and ReactDOM libraries at the top level. ReactDOM and ReactNative use the same React Library to render.-->
+    <script>
+        const App = () => {
+            return React.createElement(
+                'div',
+                {},
+                [React.createElement('h1', {}, 'Adopt Me!'), React.createElement('h2', {}, 'Adopt my dog!'), React.createElement('p', {}, 'Adopt some random kid!')]
+            )
+        }
+        // React.createElement takes three arguments, a) the component to be rendered (can be standard html tags or composite components) b) the props,
+        // (for standard components, you can define an object and set id and class, while for composite components you can pass props) c) Children components
+        // Note that the children components can be a single element or an array.
+        ReactDOM.render(React.createElement(App),
+        document.getElementById('root')
+        )
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Pure react that renders a composite component inside another composite component, to demonstrate component reusability.

@@ -1,0 +1,2 @@
+Pure react that renders a composite component inside another composite component. The inner composite component makes use of props to set values.
+You can achieve the same through destructuring of the props object in the Pet component.

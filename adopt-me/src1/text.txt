@@ -1,0 +1,1 @@
+Pure react code that renders an array of h1 inside a div.
