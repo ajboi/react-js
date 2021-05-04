@@ -1,2 +1,2 @@
 # React JS
-In this repository, I practice Facebook's Frontnd UI Development Library, ReactJS.
+In this repository, I practice Facebook's Frontend UI Development Library, ReactJS.
