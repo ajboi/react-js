@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css">
+    <title>Pure React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--Creates a div element with the id root which will be used by ReactDOM to stamp the App component. -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Imports the React and ReactDOM libraries at the top level. ReactDOM and ReactNative use the same React Library to render.-->
+    <script src="/index.HASH_REF_c75227167347e57df55b258c72166a09.js"></script>
+  </body> 
+</html>

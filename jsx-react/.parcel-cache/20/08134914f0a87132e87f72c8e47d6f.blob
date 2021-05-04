@@ -1,0 +1,72 @@
+var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _react = require("react");
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  require("react-dom");
+  var _pet = require("./pet");
+  var _petDefault = _parcelHelpers.interopDefault(_pet);
+  var _jsxFileName = "C:\\Users\\ajai\\Documents\\GitHub\\react-js\\jsx-react\\src\\app.js";
+  const App = () => {
+    // return React.createElement("div", {}, [
+    // React.createElement("h1", {}, "Adopt Me!"),
+    // React.createElement(Pet, {
+    // name: "tiger",
+    // animal: "dog",
+    // breed: "German Shepherd",
+    // }),
+    // React.createElement(Pet, {
+    // name: "leonard",
+    // animal: "squirrel",
+    // breed: "idk",
+    // }),
+    // ]);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 7
+        }
+      }, "Adopt Me!"), /*#__PURE__*/_reactDefault.default.createElement(_petDefault.default, {
+        name: "tiger",
+        animal: "dog",
+        breed: "German Shepherd",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 7
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_petDefault.default, {
+        name: "Leonard",
+        animal: "Squirrel",
+        breed: "vjnaFan",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 7
+        }
+      }))
+    );
+  };
+  _c = App;
+  var _c;
+  $RefreshReg$(_c, "App");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
