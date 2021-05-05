@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "format": "prettier \"src/**/*.{js,css,jsx,html}\" --write",
-    "lint": "eslint \"src/**/*.{js,css,jsx,html}\" --quiet",
+    "dev": "parcel src/index.html", // Pointing the bundler to index.js or index.html.
+    "format": "prettier \"src/**/*.{js,css,jsx,html}\" --write", // instructing prettier which files it should format when called.
+    "lint": "eslint \"src/**/*.{js,css,jsx,html}\" --quiet", // instructing eslint on which files it should lint when called.
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,13 +17,13 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.25.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.2",
-    "parcel": "^2.0.0-beta.2",
-    "prettier": "^2.2.1"
+    "babel-eslint": "^10.1.0", // Allows eslint to be augmented by Babel. Babel is the transpiler. Out of the box, eslint doesn't understand react well.
+    "eslint": "^7.25.0", // Best javascript practices.
+    "eslint-config-prettier": "^8.3.0", // make eslint work in tandem with prettier.
+    "eslint-plugin-import": "^2.22.1", // Best practices for importing and exporting modules.
+    "eslint-plugin-jsx-a11y": "^6.4.1", // Best practices for accessibility.
+    "eslint-plugin-react": "^7.23.2", // Best practices for react rules. 
+    "parcel": "^2.0.0-beta.2", // the bundler.
+    "prettier": "^2.2.1" // the formatter.
   }
 }
