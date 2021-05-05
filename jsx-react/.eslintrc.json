@@ -8,9 +8,11 @@
     ],
     "rules": {
         "react/prop-types": 0, //turns pro-types off. It is a typechecking functionality. We need typescript to implement.
-        "no-console": 1 // When we have this value as "enabled", console logs will be red underlined. When we have it as 1, they will be green underlined.
+        "no-console": 1, // When we have this value as "enabled", console logs will be red underlined. When we have it as 1, they will be green underlined.
+        "react-hooks/rules-of-hooks": 2, // Best practices for hooks. 2 means throw an error
+        "react-hooks/exhaustive-deps": 1 // Best practices for hooks. 1 means warn.
     },
-    "plugins": ["react", "import", "jsx-a11y"], // loading the plugins which we have mentioned under extends.
+    "plugins": ["react", "import", "jsx-a11y", "react-hooks"], // loading the plugins which we have mentioned under extends.
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module",
